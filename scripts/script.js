@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    const restart = () => {
+    const restartGame = () => {
         score = 20;
         scoreDisplay.textContent = score;
 
@@ -70,5 +70,5 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     checkBtn.addEventListener('click', showResult);
-    restartBtn.addEventListener('click', restart);
+    restartBtn.addEventListener('click', restartGame);
 });
